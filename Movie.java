@@ -1,55 +1,17 @@
 class Movie {
 
     int movieId;
-    int durationMinutes;
+    String movieName;
+    String director;
+    int budget;
 
-    double budget;
-    double ratingScore;
+    public void getMovieDetail(){
 
-    String movieTitle;
-    String directorName;
-    String genre;
+        System.out.println("Movie Details");
+        System.out.println("Movie Id: " + this.movieId);
+        System.out.println("Movie Name: " + this.movieName);
+        System.out.println("Director: " + this.director);
+        System.out.println("Budget: " + this.budget);
 
-    boolean released;
-    boolean subtitlesAvailable;
-
-    char movieGrade;
-
-    long movieCode;
-
-    float ticketPrice;
-
-    Movie(int movieId, int durationMinutes){
-        this.movieId = movieId;
-        this.durationMinutes = durationMinutes;
     }
-
-    Movie(double budget, double ratingScore){
-        this.budget = budget;
-        this.ratingScore = ratingScore;
-    }
-
-    Movie(String movieTitle, String directorName, String genre){
-        this.movieTitle = movieTitle;
-        this.directorName = directorName;
-        this.genre = genre;
-    }
-
-    Movie(boolean released, boolean subtitlesAvailable){
-        this.released = released;
-        this.subtitlesAvailable = subtitlesAvailable;
-    }
-
-    Movie(char movieGrade){
-        this.movieGrade = movieGrade;
-    }
-
-    Movie(long movieCode){
-        this.movieCode = movieCode;
-    }
-
-    Movie(float ticketPrice){
-        this.ticketPrice = ticketPrice;
-    }
-
 }
