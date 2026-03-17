@@ -3,6 +3,12 @@ class Channel {
     int channelId;
     String channelName;
     String category;
+	
+	public Channel(int channelId,String channelName,String category){
+		this.channelId=channelId;
+		this.channelName=channelName;
+		this.category=category;
+	}
 
     public void getChannelDetail() {
 

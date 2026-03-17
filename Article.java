@@ -3,6 +3,13 @@ class Article {
     int articleId;
     String title;
     String author;
+	
+	public Article(int articleId,String title,String author){
+		this.articleId=articleId;
+		this.title=title;
+		this.author=author;
+		
+	}
 
     public void getArticleDetail() {
 

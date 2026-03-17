@@ -4,6 +4,11 @@ class BigDaddy {
     String shipName;
 
     Casino casino;
+	public BigDaddy(int shipId,String shipName,Casino casino){
+		this.shipId=shipId;
+		this.shipName=shipName;
+		this.casino=casino;
+	}
 
     public void getBigDaddyDetail(){
 

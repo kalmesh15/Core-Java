@@ -4,6 +4,12 @@ class Company {
     String companyName;
 
     Project project;
+	
+	public Company(int companyId,String companyName,Project project){
+		this.companyId=companyId;
+		this.companyName=companyName;
+		this.project=project;
+	}
 
     public void getCompanyDetail(){
 

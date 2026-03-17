@@ -4,6 +4,12 @@ class Train {
     String trainName;
 
     Boggie boggie;
+	
+	public Train(int trainId,String trainName,Boggie boggie){
+		this.trainId=trainId;
+		this.trainName=trainName;
+		this.boggie=boggie;
+	}
 
     public void getTrainDetail() {
 

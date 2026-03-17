@@ -4,6 +4,12 @@ class Newspaper {
     String newspaperName;
 
     Article article;
+	
+	public Newspaper(int newspaperId,String newspaperName,Article article){
+		this.newspaperId=newspaperId;
+		this.newspaperName=newspaperName;
+		this.article=article;
+	}
 
     public void getNewspaperDetail() {
 

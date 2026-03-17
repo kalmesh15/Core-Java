@@ -2,32 +2,37 @@ class TrainExecutor {
 
     public static void main(String[] args) {
 
-        Train train1 = new Train();
-        Boggie boggie1 = new Boggie();
 
-        train1.trainId = 1;
+         Boggie boggie1 = new Boggie(101,"Ac",72);
+        Train train1 = new Train(1,"Express1",boggie1);
+        
+		
+		
+		train1.boggie = boggie1;
+        train1.getTrainDetail();
+
+        /*train1.trainId = 1;
         train1.trainName = "Express1";
 
         boggie1.boggieId = 101;
         boggie1.boggieType = "AC";
-        boggie1.seats = 72;
+        boggie1.seats = 72;*/
 
-        train1.boggie = boggie1;
-        train1.getTrainDetail();
+        
 
-
-        Train train2 = new Train();
-        Boggie boggie2 = new Boggie();
-
-        train2.trainId = 2;
+        Boggie boggie2 = new Boggie(102,"Sleeper",76);
+        Train train2 = new Train(2,"Express2",boggie2);
+        
+        train2.boggie = boggie2;
+        train2.getTrainDetail();
+        /*train2.trainId = 2;
         train2.trainName = "Express2";
 
         boggie2.boggieId = 102;
         boggie2.boggieType = "Sleeper";
         boggie2.seats = 72;
 
-        train2.boggie = boggie2;
-        train2.getTrainDetail();
+        
 
 
         Train train3 = new Train();
@@ -280,6 +285,7 @@ class TrainExecutor {
 
         train20.boggie = boggie20;
         train20.getTrainDetail();
+		*/
 
     }
 }

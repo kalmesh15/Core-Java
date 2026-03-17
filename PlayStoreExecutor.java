@@ -2,67 +2,75 @@ class PlayStoreExecutor {
 
     public static void main(String[] args) {
 
-        PlayStore ps1 = new PlayStore();
-        Application a1 = new Application();
-        ps1.storeId = 1;
+        PlayStore ps1 = new PlayStore(1,"Google Play");
+        Application a1 = new Application(101,"WhatsApp","Communication",4.5);
+		ps1.application =a1;
+		ps1.getPlayStoreDetail();
+		
+       /* ps1.storeId = 1;
         ps1.storeName = "Google Play";
         a1.appId = 101;
         a1.appName = "WhatsApp";
         a1.category = "Communication";
         a1.rating = 4.5;
         ps1.application = a1;
-        ps1.getPlayStoreDetail();
+         */
 
 
-        PlayStore ps2 = new PlayStore();
-        Application a2 = new Application();
-        ps2.storeId = 2;
+        PlayStore ps2 = new PlayStore(2,"Google play");
+        Application a2 = new Application(102,"Instagram","Social",4.3);
+		ps2.application = a2;
+        ps2.getPlayStoreDetail();
+		
+        /* ps2.storeId = 2;
         ps2.storeName = "Google Play";
         a2.appId = 102;
         a2.appName = "Instagram";
         a2.category = "Social";
-        a2.rating = 4.4;
-        ps2.application = a2;
-        ps2.getPlayStoreDetail();
+        a2.rating = 4.4; */
+        
 
 
-        PlayStore ps3 = new PlayStore();
-        Application a3 = new Application();
-        ps3.storeId = 3;
+        PlayStore ps3 = new PlayStore(3,"Google Play");
+        Application a3 = new Application(103,"Facebook","Social",4.1);
+		
+        /*ps3.storeId = 3;
         ps3.storeName = "Google Play";
         a3.appId = 103;
         a3.appName = "Facebook";
         a3.category = "Social";
-        a3.rating = 4.1;
+        a3.rating = 4.1;*/
         ps3.application = a3;
         ps3.getPlayStoreDetail();
 
 
-        PlayStore ps4 = new PlayStore();
-        Application a4 = new Application();
-        ps4.storeId = 4;
+        PlayStore ps4 = new PlayStore(4,"Google Play");
+        Application a4 = new Application(104, "Telegram","Communication",4.3);
+		
+        /*ps4.storeId = 4;
         ps4.storeName = "Google Play";
         a4.appId = 104;
         a4.appName = "Telegram";
         a4.category = "Communication";
-        a4.rating = 4.6;
+        a4.rating = 4.6;*/
+		
         ps4.application = a4;
         ps4.getPlayStoreDetail();
 
 
-        PlayStore ps5 = new PlayStore();
-        Application a5 = new Application();
-        ps5.storeId = 5;
+        PlayStore ps5 = new PlayStore(5,"Google Play");
+        Application a5 = new Application(105,"Snapchat","Social",3.5);
+        /*ps5.storeId = 5;
         ps5.storeName = "Google Play";
         a5.appId = 105;
         a5.appName = "Snapchat";
         a5.category = "Social";
-        a5.rating = 4.2;
+        a5.rating = 4.2;*/
         ps5.application = a5;
         ps5.getPlayStoreDetail();
 
 
-        PlayStore ps6 = new PlayStore();
+        /* PlayStore ps6 = new PlayStore();
         Application a6 = new Application();
         ps6.storeId = 6;
         ps6.storeName = "Google Play";
@@ -240,6 +248,6 @@ class PlayStoreExecutor {
         a20.rating = 4.6;
         ps20.application = a20;
         ps20.getPlayStoreDetail();
-
+              */
     }
 }

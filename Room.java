@@ -1,4 +1,0 @@
-class Room{
-	
-	int roomId;
-}

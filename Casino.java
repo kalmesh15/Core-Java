@@ -4,6 +4,13 @@ class Casino {
     String casinoName;
     String gameType;
     int entryFee;
+	public Casino(int casinoId,String casinoName,String gameType ,int entryFee){
+		this.casinoId=casinoId;
+		this.casinoName=casinoName;
+		this.gameType=gameType;
+		this.entryFee=entryFee;
+		
+	}
 
     public void getCasinoDetail(){
 

@@ -2,35 +2,36 @@ class TvExecutor {
 
     public static void main(String[] args) {
 
-        Tv tv1 = new Tv();
-        Channel channel1 = new Channel();
+        Channel channel1 = new Channel(101,"Star Sports","Sports");
+        Tv tv1 = new Tv(1,"Sony",channel1);
+        tv1.channel = channel1;
+        tv1.getTvDetail();
 
-        tv1.tvId = 1;
+        /*tv1.tvId = 1;
         tv1.brand = "Sony";
 
         channel1.channelId = 101;
         channel1.channelName = "Star Sports";
-        channel1.category = "Sports";
+        channel1.category = "Sports";*/
 
-        tv1.channel = channel1;
-        tv1.getTvDetail();
+        
 
-
-        Tv tv2 = new Tv();
-        Channel channel2 = new Channel();
-
-        tv2.tvId = 2;
+        Channel channel2 = new Channel(102,"Discovery","Education");
+        Tv tv2 = new Tv(2,"Samsung",channel2);
+        
+        tv2.channel = channel2;
+        tv2.getTvDetail();
+        /*tv2.tvId = 2;
         tv2.brand = "Samsung";
 
         channel2.channelId = 102;
         channel2.channelName = "Discovery";
-        channel2.category = "Education";
+        channel2.category = "Education";*/
 
-        tv2.channel = channel2;
-        tv2.getTvDetail();
+       
 
 
-        Tv tv3 = new Tv();
+        /*Tv tv3 = new Tv();
         Channel channel3 = new Channel();
 
         tv3.tvId = 3;
@@ -279,7 +280,7 @@ class TvExecutor {
         channel20.category = "Education";
 
         tv20.channel = channel20;
-        tv20.getTvDetail();
+        tv20.getTvDetail();*/
 
     }
 }

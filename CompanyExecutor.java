@@ -1,30 +1,32 @@
 class CompanyExecutor {
 
     public static void main(String[] args) {
-
-        Company c1 = new Company();
-        Project p1 = new Project();
-        c1.companyId = 1;
+        
+		Project p1 = new Project(101,"Banking System","java");
+        Company c1 = new Company(1,"Infosys",p1);
+        
+		c1.project = p1;
+        c1.getCompanyDetail();
+        /*c1.companyId = 1;
         c1.companyName = "Infosys";
         p1.projectId = 101;
         p1.projectName = "Banking System";
-        p1.technology = "Java";
-        c1.project = p1;
-        c1.getCompanyDetail();
+        p1.technology = "Java";*/
+        
 
-
-        Company c2 = new Company();
-        Project p2 = new Project();
-        c2.companyId = 2;
+        Project p2 = new Project(102,"Insurance app","Spring boot");
+        Company c2 = new Company(2,"TCS",p2);
+        
+        /*c2.companyId = 2;
         c2.companyName = "TCS";
         p2.projectId = 102;
         p2.projectName = "Insurance App";
-        p2.technology = "Spring Boot";
+        p2.technology = "Spring Boot";*/
         c2.project = p2;
         c2.getCompanyDetail();
 
 
-        Company c3 = new Company();
+        /*Company c3 = new Company();
         Project p3 = new Project();
         c3.companyId = 3;
         c3.companyName = "Wipro";
@@ -219,7 +221,7 @@ class CompanyExecutor {
         p20.projectName = "Food App";
         p20.technology = "Java";
         c20.project = p20;
-        c20.getCompanyDetail();
+        c20.getCompanyDetail();*/
 
     }
 }

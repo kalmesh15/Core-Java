@@ -3,6 +3,13 @@ class Boggie {
     int boggieId;
     String boggieType;
     int seats;
+	
+	public Boggie(int boggieId,String boggieType,int seats){
+		this.boggieId=boggieId;
+		this.boggieType=boggieType;
+		this.seats=seats;
+		
+	}
 
     public void getBoggieDetail() {
 

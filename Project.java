@@ -3,6 +3,13 @@ class Project {
     int projectId;
     String projectName;
     String technology;
+	
+	public Project(int projectId,String projectName,String technology){
+		this.projectId=projectId;
+		this.projectName=projectName;
+		this.technology=technology;
+		
+	}
 
     public void getProjectDetail(){
 

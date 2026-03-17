@@ -1,63 +1,70 @@
 class NewspaperExecutor {
 
     public static void main(String[] args) {
-
-        Newspaper n1 = new Newspaper();
-        Article a1 = new Article();
-        n1.newspaperId = 1;
+        Article a1 = new Article(101,"Tech Growth","Ravi");
+        Newspaper n1 = new Newspaper(1,"Times of India",a1);
+        
+        /*n1.newspaperId = 1;
         n1.newspaperName = "Times of India";
         a1.articleId = 101;
         a1.title = "Tech Growth";
-        a1.author = "Ravi";
+        a1.author = "Ravi";*/
         n1.article = a1;
         n1.getNewspaperDetail();
 
 
-        Newspaper n2 = new Newspaper();
-        Article a2 = new Article();
+
+        Article a2 = new Article(102,"Economic news","Sagar");
+        Newspaper n2 = new Newspaper(2,"The Hindu",a2);
+		n2.article = a2;
+        n2.getNewspaperDetail();
+       
+       /* 
         n2.newspaperId = 2;
         n2.newspaperName = "The Hindu";
         a2.articleId = 102;
         a2.title = "Economy News";
-        a2.author = "Sagar";
-        n2.article = a2;
-        n2.getNewspaperDetail();
+        a2.author = "Sagar";*/
+        
 
-
-        Newspaper n3 = new Newspaper();
-        Article a3 = new Article();
-        n3.newspaperId = 3;
+        Article a3 = new Article(103, "Sports update","Rahul");
+        Newspaper n3 = new Newspaper(3,"Indian Express",a3);
+        
+       /* n3.newspaperId = 3;
         n3.newspaperName = "Indian Express";
         a3.articleId = 103;
         a3.title = "Sports Update";
-        a3.author = "Rahul";
+        a3.author = "Rahul";*/
         n3.article = a3;
         n3.getNewspaperDetail();
 
-
-        Newspaper n4 = new Newspaper();
-        Article a4 = new Article();
+        Article a4 = new Article(104,"City news","Anil");
+		Newspaper n4 = new Newspaper(4,"Deccan Herald",a4);
+		n4.article = a4;
+        n4.getNewspaperDetail();
+        
+       /* 
         n4.newspaperId = 4;
         n4.newspaperName = "Deccan Herald";
         a4.articleId = 104;
         a4.title = "City News";
-        a4.author = "Anil";
-        n4.article = a4;
-        n4.getNewspaperDetail();
+        a4.author = "Anil"; */
+        
 
-
-        Newspaper n5 = new Newspaper();
-        Article a5 = new Article();
-        n5.newspaperId = 5;
+        Article a5 = new Article(105,"Education","Kiran");
+        Newspaper n5 = new Newspaper(5,"Vijay Karnataka",a5);
+        
+        /*n5.newspaperId = 5;
         n5.newspaperName = "Vijaya Karnataka";
         a5.articleId = 105;
         a5.title = "Education";
         a5.author = "Kiran";
+		*/
         n5.article = a5;
         n5.getNewspaperDetail();
 
 
-        Newspaper n6 = new Newspaper();
+        /*Newspaper n6 = new Newspaper();
         Article a6 = new Article();
         n6.newspaperId = 6;
         n6.newspaperName = "Economic Times";
@@ -219,7 +226,7 @@ class NewspaperExecutor {
         a20.title = "Global Economy";
         a20.author = "Ananya";
         n20.article = a20;
-        n20.getNewspaperDetail();
+        n20.getNewspaperDetail();*/
 
     }
 }

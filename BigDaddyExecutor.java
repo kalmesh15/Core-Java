@@ -1,32 +1,34 @@
 class BigDaddyExecutor {
 
     public static void main(String[] args) {
-
-        BigDaddy b1 = new BigDaddy();
-        Casino c1 = new Casino();
-        b1.shipId = 1;
+        
+		Casino c1 = new Casino(101,"Royal Casino","Poker",1000);
+        BigDaddy b1 = new BigDaddy(1,"BigDaddy Cruise",c1);
+        
+		b1.casino = c1;
+        b1.getBigDaddyDetail();
+        /*b1.shipId = 1;
         b1.shipName = "BigDaddy Cruise";
         c1.casinoId = 101;
         c1.casinoName = "Royal Casino";
         c1.gameType = "Poker";
         c1.entryFee = 1000;
-        b1.casino = c1;
-        b1.getBigDaddyDetail();
+       */
 
-
-        BigDaddy b2 = new BigDaddy();
-        Casino c2 = new Casino();
-        b2.shipId = 2;
+		Casino c2 = new Casino(102, "Lucky Spin","Roulette",1774);
+        BigDaddy b2 = new BigDaddy(2,"BigDaddy Cruise",c2);
+        
+       /* b2.shipId = 2;
         b2.shipName = "BigDaddy Cruise";
         c2.casinoId = 102;
         c2.casinoName = "Lucky Spin";
         c2.gameType = "Roulette";
-        c2.entryFee = 1500;
+        c2.entryFee = 1500;*/
         b2.casino = c2;
         b2.getBigDaddyDetail();
 
 
-        BigDaddy b3 = new BigDaddy();
+        /*BigDaddy b3 = new BigDaddy();
         Casino c3 = new Casino();
         b3.shipId = 3;
         b3.shipName = "BigDaddy Cruise";
@@ -239,7 +241,7 @@ class BigDaddyExecutor {
         c20.gameType = "Roulette";
         c20.entryFee = 2000;
         b20.casino = c20;
-        b20.getBigDaddyDetail();
+        b20.getBigDaddyDetail();*/
 
     }
 }
