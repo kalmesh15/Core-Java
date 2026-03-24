@@ -1,0 +1,2 @@
+class EmailNotification extends NotificationService {
+}

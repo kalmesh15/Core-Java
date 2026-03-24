@@ -1,0 +1,2 @@
+class UberRideService extends RideService {
+}

@@ -1,0 +1,2 @@
+class NetflixPlatform extends StreamingPlatform {
+}

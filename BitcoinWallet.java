@@ -1,0 +1,2 @@
+class BitcoinWallet extends CryptoWallet {
+}

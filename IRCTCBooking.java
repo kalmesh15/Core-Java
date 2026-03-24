@@ -1,0 +1,2 @@
+class IRCTCBooking extends TicketBooking {
+}

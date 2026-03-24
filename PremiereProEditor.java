@@ -1,0 +1,2 @@
+class PremiereProEditor extends VideoEditor {
+}

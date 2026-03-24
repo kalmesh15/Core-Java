@@ -1,0 +1,2 @@
+class AlexaDevice extends SmartDevice {
+}

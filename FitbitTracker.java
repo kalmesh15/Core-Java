@@ -1,0 +1,2 @@
+class FitbitTracker extends FitnessTracker {
+}

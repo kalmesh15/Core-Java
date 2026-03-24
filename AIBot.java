@@ -1,0 +1,2 @@
+class AIBot extends ChatBot {
+}

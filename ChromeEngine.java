@@ -1,0 +1,2 @@
+class ChromeEngine extends BrowserEngine {
+}
