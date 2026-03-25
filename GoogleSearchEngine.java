@@ -1,2 +1,0 @@
-class GoogleSearchEngine extends SearchEngine {
-}

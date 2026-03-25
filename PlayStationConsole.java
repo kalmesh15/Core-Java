@@ -1,2 +1,0 @@
-class PlayStationConsole extends GamingConsole {
-}

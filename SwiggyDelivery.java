@@ -1,2 +1,0 @@
-class SwiggyDelivery extends DeliveryService {
-}

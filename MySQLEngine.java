@@ -1,2 +1,0 @@
-class MySQLEngine extends DatabaseEngine {
-}

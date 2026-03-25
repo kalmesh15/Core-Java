@@ -1,2 +1,0 @@
-class AWSService extends CloudService {
-}

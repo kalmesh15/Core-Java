@@ -1,2 +1,0 @@
-class VisaCard extends PaymentCard {
-}

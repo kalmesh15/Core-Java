@@ -1,2 +1,0 @@
-class OAuthService extends AuthenticationService {
-}

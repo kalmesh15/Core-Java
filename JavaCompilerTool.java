@@ -1,2 +1,0 @@
-class JavaCompilerTool extends CompilerTool {
-}

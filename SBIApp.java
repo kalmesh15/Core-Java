@@ -1,2 +1,0 @@
-class SBIApp extends BankingApp {
-}

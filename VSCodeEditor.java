@@ -1,2 +1,0 @@
-class VSCodeEditor extends CodeEditor {
-}

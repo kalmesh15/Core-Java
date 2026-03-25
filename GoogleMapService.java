@@ -1,2 +1,0 @@
-class GoogleMapService extends MapService {
-}

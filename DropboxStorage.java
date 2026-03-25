@@ -1,2 +1,0 @@
-class DropboxStorage extends FileStorage {
-}
