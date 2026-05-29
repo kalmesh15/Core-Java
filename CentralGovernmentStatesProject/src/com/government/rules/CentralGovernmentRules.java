@@ -1,35 +1,36 @@
 package com.government.rules;
 
-public interface CentralGovernmentRules {
+public abstract class CentralGovernmentRules {
 
-    void payTaxes();
-    void followTrafficRules();
-    void maintainPublicCleanliness();
-    void respectNationalFlag();
-    void followCyberLaws();
-    void obeyCourtOrders();
-    void registerBusinesses();
-    void protectEnvironment();
-    void followLaborLaws();
-    void maintainPropertyRecords();
-    void followEducationPolicies();
-    void followHealthRegulations();
-    void avoidCorruption();
-    void followVotingRules();
-    void respectWomenSafetyLaws();
-    void protectWildlife();
-    void followBankingRules();
-    void maintainDigitalPrivacy();
-    void followRoadSafety();
-    void respectPublicProperty();
-    void followConsumerProtection();
-    void maintainTradeLicense();
-    void followImportExportRules();
-    void reportFinancialFraud();
-    void followMunicipalRules();
-    void maintainWaterConservation();
-    void followFireSafetyRules();
-    void respectHumanRights();
-    void followIndustrialSafety();
-    void maintainEnergyConservation();
+    public abstract void payTaxes();
+    public abstract void followTrafficRules();
+    public abstract void maintainPublicCleanliness();
+    public abstract void respectNationalFlag();
+   public abstract void followCyberLaws();
+    public abstract void obeyCourtOrders();
+    public abstract void registerBusinesses();
+    public abstract void protectEnvironment();
+   public abstract void followLaborLaws();
+    public abstract void maintainPropertyRecords();
+    public abstract void followEducationPolicies();
+    public abstract void followHealthRegulations();
+    public abstract void avoidCorruption();
+    public abstract void followVotingRules();
+
+    public abstract void respectWomenSafetyLaws();
+   public abstract void protectWildlife();
+   public abstract void followBankingRules();
+   public abstract void maintainDigitalPrivacy();
+   public abstract void followRoadSafety();
+   public abstract void respectPublicProperty();
+    public abstract void followConsumerProtection();
+    public abstract void maintainTradeLicense();
+    public abstract void followImportExportRules();
+    public abstract void reportFinancialFraud();
+    public abstract void followMunicipalRules();
+   public abstract void maintainWaterConservation();
+    public abstract void followFireSafetyRules();
+    public abstract void respectHumanRights();
+    public abstract void followIndustrialSafety();
+    public abstract void maintainEnergyConservation();
 }

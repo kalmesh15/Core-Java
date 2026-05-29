@@ -2,7 +2,7 @@ package com.orion.shops.orion.impl;
 
 import com.orion.shops.orion.Orion;
 
-public class ReebokImpl implements Orion {
+public class ReebokImpl extends Orion {
 
     @Override
     public void doBusiness() {

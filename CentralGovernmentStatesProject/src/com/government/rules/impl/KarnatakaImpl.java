@@ -2,7 +2,7 @@ package com.government.rules.impl;
 
 import com.government.rules.CentralGovernmentRules;
 
-public class KarnatakaImpl implements CentralGovernmentRules {
+public class KarnatakaImpl extends CentralGovernmentRules {
 
     @Override
     public void payTaxes() {

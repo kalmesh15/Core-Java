@@ -2,7 +2,7 @@ package com.orion.shops.orion.impl;
 
 import com.orion.shops.orion.Orion;
 
-public class AllenSollyImpl implements Orion {
+public class AllenSollyImpl extends Orion {
 
     @Override
     public void doBusiness() {

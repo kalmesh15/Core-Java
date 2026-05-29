@@ -2,7 +2,7 @@ package com.orion.shops.orion.impl;
 
 import com.orion.shops.orion.Orion;
 
-public class LifestyleImpl implements Orion {
+public class LifestyleImpl extends Orion {
 
     @Override
     public void doBusiness() {

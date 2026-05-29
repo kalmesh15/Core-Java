@@ -2,7 +2,7 @@ package com.orion.shops.orion.impl;
 
 import com.orion.shops.orion.Orion;
 
-public class VanHeusenImpl implements Orion {
+public class VanHeusenImpl extends Orion {
 
     @Override
     public void doBusiness() {

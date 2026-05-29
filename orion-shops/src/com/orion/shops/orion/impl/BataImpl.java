@@ -2,7 +2,7 @@ package com.orion.shops.orion.impl;
 
 import com.orion.shops.orion.Orion;
 
-public class BataImpl implements Orion {
+public class BataImpl extends Orion {
 
     @Override
     public void doBusiness() {

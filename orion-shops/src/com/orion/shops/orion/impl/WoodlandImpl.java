@@ -2,7 +2,7 @@ package com.orion.shops.orion.impl;
 
 import com.orion.shops.orion.Orion;
 
-public class WoodlandImpl implements Orion {
+public class WoodlandImpl extends Orion {
 
     @Override
     public void doBusiness() {

@@ -2,7 +2,7 @@ package com.orion.shops.orion.impl;
 
 import com.orion.shops.orion.Orion;
 
-public class MetroImpl implements Orion {
+public class MetroImpl extends Orion {
 
     @Override
     public void doBusiness() {
